@@ -1,0 +1,113 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0px auto;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+
+    .left h3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0px 10px;
+        padding: 5px 0px;
+    }
+
+    .right {
+        margin: 0px 10px;
+        padding: 5px 0px;
+    }
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-width: 350px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.delete-circuit {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.delete-circuit:hover {
+    background-color: #ff1a1a;
+}
+
+.edit-circuit, .view-circuit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-circuit:hover, .view-circuit:hover {
+    background-color: #0056b3;
+}
+
+.export-circuit {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.export-circuit:hover {
+    background-color: #218838;
+}
+
+.logout {
+    background-color: #dc35469c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: #c82333;
+}
+
+.new-map {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.new-map:hover {
+    background-color: #218838;
+}

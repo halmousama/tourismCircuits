@@ -1,0 +1,78 @@
+/* Leaflet CSS */
+@import url('https://unpkg.com/leaflet/dist/leaflet.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Custom styles for the map container */
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Custom styles for the sidebar */
+.sidebar {
+  width: 100%;
+  height: 50px;
+  background-color: #c01818;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.delete-coord {
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#circuit-history {
+  padding: 10px;
+  tr {
+    text-align: center;
+    background-color: thistle;
+    border-radius: 10px;
+    display: block;
+    margin: 2px;
+
+    td {
+      margin: 0;
+      padding: 0 10px;
+      border: none;
+    }
+  }
+}
+
+#add-coord {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid tomato;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+#add-coord:hover {
+  background-color: tomato;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.topbar {
+  max-width: 400px;
+}
