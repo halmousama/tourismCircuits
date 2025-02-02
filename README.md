@@ -56,8 +56,8 @@ The **Tourist Route Planner Application** is a web-based tool designed to help u
 #### For Linux/MacOS:
 1. Clone the repository or download the project:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/halmousama/tourismCircuits.git
+   cd tourismCircuits
    ```
 2. Run `composer install` to install the dependencies:
    ```bash
@@ -75,8 +75,8 @@ The **Tourist Route Planner Application** is a web-based tool designed to help u
 #### For Windows:
 1. Clone the repository or download the project:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/halmousama/tourismCircuits.git
+   cd tourismCircuits
    ```
 2. Run `composer install` to install the dependencies:
    ```bash
